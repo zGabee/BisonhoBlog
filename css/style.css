@@ -3,32 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode',
      'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #e6e6e6;
 }
-
 .area-cabecalho{
     /* border: 1px solid red; */
     padding: .9rem;
     background-color: #f7b600;
     text-align: center;
 }
-
 area.logo, .area-menu{
     padding: .7rem;
 }
-
 .logo-branca{
     color: #FFF;
 }
-
 .area-menu a{
     text-decoration: none;
 }
-
 .area-menu a:link, .area-menu a:visited{
     color: #FFF;
     padding: 8px 12px;
@@ -36,12 +30,10 @@ area.logo, .area-menu{
 
     transition: .3s;
 }
-
 .area-menu a:hover{
     background-color: #FFF;
     color: #f7b600;
 }
-
 #area-principal{
     width: 57.5rem;
     /* border: 1px solid red; */
@@ -52,4 +44,69 @@ area.logo, .area-menu{
 #area-postagem{
     width: 41.25rem;
 }
-#area-lateral{}
+#area-lateral{
+    width: 15rem;
+    margin-left: 1.5rem;
+}
+
+/* POSTAGEM DO BLOG */
+.postagem{
+    padding: 1rem;
+}
+.postagem-imagem{
+    width: 39rem;
+}
+.postagem-titulo{
+    color: #f7b600;
+}
+.postagem-data{
+    font-size: 0.8rem;
+    display: block;
+    padding-bottom: 0.8rem;
+}
+.postagem a{
+    text-decoration: none;
+}
+.postagem a:visited, .postagem a:link{
+    color: #f7b600;
+}
+.postagem a:hover{
+    text-decoration: underline;
+}
+
+/* CONTEÚDO LATERAL */
+.conteudo-lateral{
+    padding: 0.8rem;
+    margin-bottom: 07rem;
+    background-color: #FFF;
+}
+.conteudo-lateral-titulo{
+    color: #565656;
+    background-color: #ccc;
+    padding: 0.3rem;
+}
+.texto-postagem-lateral{
+    font-size: 0.8rem;
+    padding: 0.3rem;
+}
+.conteudo-lateral a{
+    text-decoration: none;
+    display: block;
+    margin: 0.2rem;
+    font-size: 0.8rem;
+}
+.conteudo-lateral a:visited, .conteudo-lateral a:link{
+    color: #f7b600;
+}
+.conteudo-lateral a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    width: 57.5rem;
+    margin: 9px auto;
+}
+footer p{
+    text-align: center;
+    background-color: #ccc;
+}
